@@ -9,3 +9,17 @@ div {
   /* align-items: center;  */
   justify-content: center;
 }
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  background: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v330-tang-02-animalpattern_2.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f8dc2d706fd2451cd4ccd31e00ac649c");
+}
+form > input[type="submit"] {
+  font-weight: bold;
+  width: 25%;
+}
+form > label {
+  color: rgb(215, 217, 217);
+  font-weight: bold;
+}
